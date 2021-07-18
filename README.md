@@ -1,4 +1,4 @@
-# ProgramCppPizza(Using GETLINE)
+// ProgramCppPizza(Using GETLINE)
 
 #include <iostream>
 #include <string>
@@ -13,7 +13,7 @@ int main()
     float retailPrice;
     
     cout << "Enter Your Favorite pizza: ";
-    getline(cin,name);     #Get Efficient output . don't do whitespace enconter
+    getline(cin,name);     //Get Efficient output . don't do whitespace enconter
     cout << "Enter the Size Of The pizza as either 's','M' or ' L': ";
     cin >> size;
     cout << "Enter the number of person it Serves: ";
