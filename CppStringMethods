@@ -18,11 +18,11 @@ int main()
    
    // Passing string as a parameter and getting a string as the retured value.
    string fullName = getFullName(firstName , lastName);
-   
+   cout << fullName;
+
 
    // Accessing a Character.
    char letter = firstName[1];                                                         //letter = 'a'
-   cin >> letter;
    
    // User input 
    string nickName;
@@ -48,7 +48,7 @@ int main()
 
 string getFullName(string firstName , string lastName)
 {
-    string fullName = firstName + lastName;  // MayurPatil
+    string fullName = firstName +" "+ lastName;  // MayurPatil
     return fullName;
     
 }
